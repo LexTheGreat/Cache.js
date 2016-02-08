@@ -13,6 +13,7 @@ var Cache = {
 			return Cache.getImage(image);
 		} else {
 			console.log("[Cashe:Get] Failed to Add:", image);
+			return false;
 		}
 	},
 	
